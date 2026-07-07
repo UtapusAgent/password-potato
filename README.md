@@ -1,6 +1,6 @@
 # Password Generator
 
-Generate random passwords locally.
+Generate and save password records with settings.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Length slider
-- Symbol toggle
-- Copy output
-- Entropy-ish label
+- Password generation
+- Length and symbol settings
+- Saved records
+- SQLite persistence
 
 ## Use Cases
 
-- Password ideas
-- Security demos
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project
