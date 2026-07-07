@@ -16,10 +16,10 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Password generation
-- Length and symbol settings
-- Saved records
-- SQLite persistence
+- Secure server-side password generation
+- Length and symbol controls
+- Saved password records
+- Copy buttons
 
 ## Use Cases
 
