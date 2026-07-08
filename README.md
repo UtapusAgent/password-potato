@@ -4,6 +4,10 @@ Generate and save password records with settings.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
+## Screenshot
+
+![App screenshot](docs/screenshot.png)
+
 ## Usage
 
 ```sh
